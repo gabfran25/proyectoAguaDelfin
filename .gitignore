@@ -1,0 +1,24 @@
+# Datos grandes - van a Kaggle
+Notebooks_IaTesisz/CSV/
+Notebooks_IaTesisz/CSV.zip
+Notebooks_IaTesisz/particiones/
+Notebooks_IaTesisz/ventanas/
+Notebooks_IaTesisz/normalizacion/
+Notebooks_IaTesisz/fase3_salidas/
+Notebooks_IaTesisz/atk_tmp/
+Notebooks_IaTesisz/graficas_benign_full/
+
+# Archivos binarios de datos
+*.npy
+*.pkl
+*.csv
+
+# Claude
+.claude/
+Notebooks_IaTesisz/.claude/
+
+# Temporales
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ana
