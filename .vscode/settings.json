@@ -1,0 +1,27 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\Daniel\\Anaconda3\\envs\\lstm-ae\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "jupyter.kernelspec.filter": {
+        "env": {
+            "KERAS_BACKEND": "torch",
+            "TF_CPP_MIN_LOG_LEVEL": "3",
+            "TF_ENABLE_ONEDNN_OPTS": "0"
+        }
+    },
+    "terminal.integrated.env.windows": {
+        "KERAS_BACKEND": "torch",
+        "TF_CPP_MIN_LOG_LEVEL": "3",
+        "TF_ENABLE_ONEDNN_OPTS": "0"
+    },
+    "python.analysis.extraPaths": [
+        "C:\\Users\\Daniel\\Anaconda3\\envs\\lstm-ae\\Lib\\site-packages"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.ipynb_checkpoints": true
+    },
+    "editor.rulers": [100],
+    "python.languageServer": "Pylance",
+    "notebook.output.textLineLimit": 100
+}

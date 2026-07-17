@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "train.py — Entrenar LSTM-AE",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/train.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "KERAS_BACKEND": "torch",
+                "TF_CPP_MIN_LOG_LEVEL": "3",
+                "TF_ENABLE_ONEDNN_OPTS": "0"
+            }
+        },
+        {
+            "name": "evaluate.py — Threshold y métricas",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/evaluate.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "KERAS_BACKEND": "torch",
+                "TF_CPP_MIN_LOG_LEVEL": "3",
+                "TF_ENABLE_ONEDNN_OPTS": "0"
+            }
+        },
+        {
+            "name": "predict.py — Inferencia",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/predict.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "KERAS_BACKEND": "torch",
+                "TF_CPP_MIN_LOG_LEVEL": "3",
+                "TF_ENABLE_ONEDNN_OPTS": "0"
+            }
+        }
+    ]
+}
